@@ -1,5 +1,8 @@
-import useTest from '@hooks/use-test';
 import React from 'react';
+
+import useTest from '@hooks/use-test';
+
+import TestOrganism from '@components/organisms/test-organism';
 
 const Home: React.FC = () => {
   const { testFunction } = useTest();
@@ -8,7 +11,11 @@ const Home: React.FC = () => {
     testFunction(null);
   }, []);
 
-  return <div>Home</div>;
+  return (
+    <div>
+      Home <TestOrganism />
+    </div>
+  );
 };
 
 export default Home;
