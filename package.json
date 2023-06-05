@@ -1,0 +1,83 @@
+{
+  "name": "frontend-boilerplate-with-react-ts",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "lint": "eslint 'src/**/*.{js,jsx,ts,tsx,html,css,scss}' --quiet --fix",
+    "format": "prettier 'src/**/*.{js,jsx,ts,tsx,html,css,scss}' --write",
+    "scan-dead-code": "unimported"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "@commitlint/cli": "^17.5.1",
+    "@commitlint/config-conventional": "^17.4.4",
+    "@heroicons/react": "^2.0.18",
+    "@tailwindcss/forms": "^0.5.0",
+    "@types/history": "^5.0.0",
+    "@types/lodash": "^4.14.194",
+    "@types/node": "^20.2.5",
+    "@types/react": "^18.2.8",
+    "@types/react-dom": "^18.0.6",
+    "@types/vite-plugin-react-svg": "^0.2.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.3",
+    "numeral": "^2.0.6",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-currency-input-field": "^3.6.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.9",
+    "react-loading-skeleton": "^3.1.0",
+    "react-router-dom": "^6.11.1",
+    "typescript": "5.1.3",
+    "use-context-selector": "^1.4.1"
+  },
+  "devDependencies": {
+    "@types/numeral": "^2.0.1",
+    "@types/react-copy-to-clipboard": "^5.0.1",
+    "@types/react-input-mask": "^3.0.1",
+    "@types/react-router-dom": "^5.3.3",
+    "@typescript-eslint/eslint-plugin": "^5.15.0",
+    "@typescript-eslint/parser": "^5.15.0",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.11.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-import-resolver-typescript": "^3.5.5",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "husky": "^8.0.3",
+    "postcss": "^8.4.23",
+    "prettier": "2.8.8",
+    "sass": "^1.49.8",
+    "tailwindcss": "^3.3.2",
+    "unimported": "^1.26.0",
+    "vite": "^4.3.5",
+    "vite-plugin-inspect": "0.7.28",
+    "vite-plugin-react-remove-attributes": "^1.0.3",
+    "vite-plugin-svgr": "^3.2.0",
+    "vite-tsconfig-paths": "4.2.0"
+  }
+}

@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Inter', sans-serif;
+}
+
+@layer base {
+  @font-face {
+    font-family: Inter;
+    font-weight: 400;
+    src: url('https://fonts.googleapis.com/css2?family=Inter&display=swap') format('woff');
+  }
+}
