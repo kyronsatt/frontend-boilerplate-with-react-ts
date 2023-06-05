@@ -1,0 +1,6 @@
+{
+  "entry": ["src/index.tsx"],
+  "extensions": [".ts", ".js", ".tsx", ".jsx"],
+  "ignorePatterns": ["**/node_modules/**"],
+  "ignoreUnimported": ["src/cache.ts", "src/react-app-env.d.ts"]
+}
